@@ -98,7 +98,7 @@ button {
   height: 51px;
   width: 97px;
   margin-right: auto;
-  background: url("/icon/logo.svg"), no-repeat;
+  background: url("../1.4/icon/logo.svg"), no-repeat;
 }
 
 .nav__button--search {
@@ -144,7 +144,7 @@ button {
     width: 5px;
     height: 50px;
     left: -50px;
-    background-image: url(/icon/highlight.svg); 
+    background-image: url(../1.4/icon/highlight.svg); 
     background-repeat: no-repeat;
     background-size: 80%;
     opacity: 0; 
@@ -193,19 +193,19 @@ button {
 .footer__button-mob {
   height: 40px;
   width: 40px;
-  background: url("/icon/call.svg") no-repeat;
+  background: url("../1.4/icon/call.svg") no-repeat;
 }
 
 .footer__button-mes {
   height: 40px;
   width: 40px;
-  background: url("/icon/chat.svg") no-repeat;
+  background: url("../1.4/icon/chat.svg") no-repeat;
 }
 
 .footer__button-cont {
   height: 40px;
   width: 40px;
-  background: url("/icon/profile.svg") no-repeat;
+  background: url("../1.4/icon/profile.svg") no-repeat;
 }
 
 .footer__contact-mail {
