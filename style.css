@@ -91,7 +91,7 @@ button {
 .nav__button--menu {
   height: 40px;
   width: 40px;
-  background: url("") no-repeat;
+  background: url("../1.4/icon/x.svg") no-repeat;
 }
 
 .nav__button--logo {
@@ -104,7 +104,7 @@ button {
 .nav__button--search {
   height: 40px;
   width: 40px;
-  background: url("/icon/search.svg") no-repeat;
+  background: url("../1.4/icon/search.svg") no-repeat;
 }
 
 .nav__list {
