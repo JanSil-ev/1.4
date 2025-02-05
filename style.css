@@ -91,7 +91,7 @@ button {
 .nav__button--menu {
   height: 40px;
   width: 40px;
-  background: url("/icon/X.svg") no-repeat;
+  background: url("/icon/x.svg") no-repeat;
 }
 
 .nav__button--logo {
