@@ -17,7 +17,10 @@
   width: 0;
 }
 
-
+ul , li {
+  padding: 0;
+  margin: 0;
+}
 body {
   margin: 0;
   padding: 0;
@@ -79,41 +82,42 @@ button {
   box-sizing: border-box;
 }
 
-.nav__button {
+.button {
+  height: 40px;
+  width: 40px;
   -webkit-transition: 1s ease;
 }
 
-.nav__button:hover {
-  transform: scale(120%);
+
+.button:hover {
   transition-duration: 0.4s;
   transition-timing-function: ease-in-out;
 }
-.nav__button--menu {
-  height: 40px;
-  width: 40px;
-  background: url("../1.4/icon/X.svg") no-repeat;
+.button--menu {
+
+  background: url("./icon/X.svg") no-repeat;
 }
 
-.nav__button--logo {
+.logo {
   height: 51px;
   width: 97px;
   margin-right: auto;
-  background: url("../1.4/icon/logo.svg"), no-repeat;
+  background: url("./icon/logo.svg"), no-repeat;
 }
 
-.nav__button--search {
-  height: 40px;
-  width: 40px;
-  background: url("../1.4/icon/search.svg") no-repeat;
+.button--search {
+
+  background: url("./icon/search.svg") no-repeat;
 }
 
 .nav__list {
   display: flex;
   flex-direction: column;
-  padding-left: 10px;
   height: 80vh;
   gap: 2%;
-  overflow: scroll;
+padding: 20px 0;
+padding-left: 10px;
+margin-bottom: 20px;
 }
 
 
@@ -144,7 +148,7 @@ button {
     width: 5px;
     height: 50px;
     left: -50px;
-    background-image: url(../1.4/icon/highlight.svg); 
+    background-image: url(./icon/highlight.svg); 
     background-repeat: no-repeat;
     background-size: 80%;
     opacity: 0; 
@@ -182,30 +186,22 @@ button {
   width: 100%;
   justify-content: space-between;
 }
-.footer__button{
-    transition: transform 0.5s;
-}
 
-.footer__button:hover {
+
+.button:hover {
     transform: scale(110%);
 }
 
-.footer__button-mob {
-  height: 40px;
-  width: 40px;
-  background: url("../1.4/icon/call.svg") no-repeat;
+.button--mob {
+  background: url("./icon/call.svg") no-repeat;
 }
 
-.footer__button-mes {
-  height: 40px;
-  width: 40px;
-  background: url("../1.4/icon/chat.svg") no-repeat;
+.button--mes {
+  background: url("./icon/chat.svg") no-repeat;
 }
 
-.footer__button-cont {
-  height: 40px;
-  width: 40px;
-  background: url("../1.4/icon/profile.svg") no-repeat;
+.button--cont {
+  background: url("./icon/profile.svg") no-repeat;
 }
 
 .footer__contact-mail {
@@ -215,6 +211,7 @@ button {
   font-size: 16px;
   line-height: 24px;
   margin-bottom: 5px;
+  -webkit-transition: 1s ease;
 }
 
 .footer__contact-namb {
@@ -224,15 +221,17 @@ button {
   font-size: 24px;
   line-height: 32px;
   margin-bottom: 5px;
+  -webkit-transition: 1s ease;
 }
 
 .footer__contact-namb:hover {
   transform: scale(110%);
-  transition-duration: 0.2s;
-  transition-timing-function: cubic-bezier(0.52, 0, 0.93, 0.83);
+  transition-duration: 0.4s;
+  transition-timing-function: ease-in-out;
 }
 .footer__lang {
   display: flex;
+  gap:10px;
 }
 
 .footer__lang-link {
@@ -240,13 +239,16 @@ button {
   color: #1b1c21;
   font-size: 24px;
   margin-right: 10px;
+  -webkit-transition: 1s ease;
+  font-family: "TT Lakes Medium";
+  cursor: pointer;
 }
 
 .footer__lang-link:active {
   color: #7e7e82;
 }
 
-.footer__lang-link:hover {
+.footer__lang-link--tap {
  color:#7e7e82;
   transition-duration: 0.5s;
   transition-timing-function: ease-in-out;
